@@ -1,0 +1,62 @@
+Installation of VS Code: Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+Open your web browser and go to the Visual Studio Code website.
+On the homepage, click the "Download for Windows" button to start downloading the VS Code installer (.exe file).
+Locate the downloaded file in your Downloads folder (usually VSCodeSetup-x64-1.XX.X.exe). Double click to run. The Visual Studio Code Setup wizard will open. Click "Next" to proceed.
+Read through the license agreement. If you agree to the terms, select "I accept the agreement" and click "Next".
+Choose the destination folder where you want to install VS Code. The default path is usually (C:\Program Files\Microsoft VS Code). Click "Next".
+You will be prompted to select additional tasks. These options include:
+Creating a desktop icon, adding "Open with Code" action to the Windows Explorer context menu, adding "Open with Code" action to the Windows Explorer directory context menu, registering VS Code as the default editor for supported file types, and adding to the PATH environment variable (important for command-line usage). Select the options that you prefer and click "Next".
+Review your installation choices. If everything is correct, click "Install" to begin the installation process. Once the installation is complete. Click on “Completing the Visual Studio Code Setup” window. If you want to launch VS Code immediately, check the "Launch Visual Studio Code" option and click "Finish".
+
+
+
+First-time Setup: After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+User settings: Open the settings panel by clicking the gear icon in the lower left corner and selecting "Settings" or pressing Ctrl+,. Adjust commonly used settings
+Choose a theme that is easy on the eyes. VS Code comes with a variety of built-in themes (dark, light, etc.). Go to File > Preferences > Color Theme and File > Preferences > File Icon Theme to set these.
+Customize keyboard shortcuts by going to File > Preferences > Keyboard Shortcuts or pressing Ctrl+K Ctrl+S.
+
+Terminal configuration: Go to File > Preferences > Settings and search for "Terminal > Integrated > Shell".
+Set the default shell (e.g., PowerShell, Git Bash).
+
+Essential extensions: prettier, python, live server, auto rename tag, path intellisense
+
+
+
+User Interface Overview: Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+The Activity Bar, located on the left, provides access to different views such as Explorer, Search, Source Control, Run and Debug, and Extensions. The Side Bar displays context-specific panels based on the selected view from the Activity Bar, such as the file explorer and search results. The Editor Group is the central area where code editing occurs, supporting multiple editor groups for split views. The Status Bar, situated at the bottom, shows details about the current file, errors, warnings, Git branch, language mode, and more.
+
+
+
+Command Palette: What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+The Command Palette is a powerful tool for accessing various commands and features quickly. Open it by pressing Ctrl+Shift+P or F1. It is used for tasks such as changing settings, running tasks, installing extensions, and more.
+
+
+
+Extensions: Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+Extensions add new features and capabilities to VS Code, making it a highly customizable editor. Use the Extensions view (Ctrl+Shift+X) to search for and install extensions. Manage installed extensions by viewing them in the Extensions view, and disable or uninstall as needed for a streamlined development environment. Examples of extensions include prettier, python, GitLens-Git supercharged, Dart, Flutter, MySql
+![alt text](image.png)
+ 
+
+
+Integrated Terminal: Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+To open the integrated terminal, press `Ctrl+`` or select View > Terminal from the menu. The integrated terminal allows you to run command-line tools directly within VS Code and supports multiple terminal instances and various shell types (e.g., Command Prompt, PowerShell, Git Bash).
+
+
+
+File and Folder Management: Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+Creating new files and folders is simple: right-click in the Explorer view and select New File or New Folder. To open existing files and folders, use File > Open File or File > Open Folder, or drag and drop files or folders into the editor. Navigate between files using the Explorer view or quickly open files by pressing Ctrl+P and typing their names.
+
+
+
+Settings and Preferences: Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+Access settings through File > Preferences > Settings or Ctrl+,. Customize VS Code’s behavior by adjusting themes, font sizes, and keyboard shortcuts to tailor the editor to your workflow.
+
+
+
+Debugging: Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+To set up debugging, open the Debug view by pressing Ctrl+Shift+D and configure debugging by creating a launch.json file when prompted. Start a debugging session by setting breakpoints by clicking in the gutter next to line numbers and starting debugging with the green play button in the Debug view or pressing F5. Key features include using breakpoints to pause execution, watching variables to monitor their values, viewing the call stack to trace execution flow, and stepping through code to inspect and debug.
+
+
+
+Using Source Control (Git): How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+Integrate Git by opening the Source Control view (Ctrl+Shift+G) and initializing a Git repository by clicking Initialize Repository. To make commits, stage changes by clicking the plus icon next to the files, enter a commit message, and click the checkmark icon to commit. Push changes to remote repositories by adding a remote repository using the terminal (git remote add origin <repository-URL>) and pushing changes using the Source Control view’s push command or git push in the terminal.
